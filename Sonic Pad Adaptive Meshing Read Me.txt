@@ -172,7 +172,7 @@ gcode:
     status_ready
     {% endif %}
     
-    [gcode_macro BED_MESH_CALIBRATE]
+[gcode_macro BED_MESH_CALIBRATE]
 rename_existing: BED_MESH_CALIBRATE_BASE
 ; gcode parameters
 variable_parameter_AREA_START : 0,0
